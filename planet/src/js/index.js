@@ -136,6 +136,7 @@ function animate() {
     pluto.obj.rotateY(0.00007);
 
     renderer.render(scene, camera);
+    
 }
 
 renderer.setAnimationLoop(animate);
